@@ -1,0 +1,165 @@
+create database albumDeFig;
+
+use albumDeFig;
+
+create table fig(
+id_fig int,
+titulo varchar (45),
+raridade varchar (255),
+primary key (id_fig)
+);
+
+create table usuario(
+id_user int,
+nome varchar (255),
+email varchar (255),
+idade int,
+pais/*país,nação*/ varchar(255),
+primary key (id_user)
+);
+
+create table posses(
+id_fig1 int,
+id_fig2 int,
+id_fig3 int,
+id_fig4 int,
+id_fig5 int,
+id_fig6 int,
+id_fig7 int,
+id_fig8 int,
+id_fig9 int,
+id_fig10 int,
+id_fig11 int,
+id_fig12 int,
+id_fig13 int,
+id_fig14 int,
+id_fig15 int,
+id_fig16 int,
+id_fig17 int,
+id_fig18 int,
+id_fig19 int,
+id_fig20 int,
+id_fig21 int,
+id_fig22 int,
+id_fig23 int,
+id_fig24 int,
+id_fig25 int,
+id_fig26 int,
+id_fig27 int,
+id_fig28 int,
+id_fig29 int,
+id_fig30 int,
+id_fig31 int,
+id_fig32 int,
+id_fig33 int,
+id_fig34 int,
+id_fig35 int,
+id_usuario int,
+foreign key (id_usuario) references usuario(id_user)
+);
+
+insert into fig(id_fig, titulo, raridade)
+values (0, 'luffy', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (1, 'Zoro', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (2, 'Sanji', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (3, 'Nami', 'Super lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (4, 'Usopp', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (5, 'Chopper', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (6, 'Jimbei', 'Super lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (7, 'Franky', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (8, 'Robin', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (9, 'Brook', 'Lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (10, 'Sogeking', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (11, 'Shanks', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (12, 'Bog Mom', 'Super lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (13, 'Kaidou', 'Lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (14, 'Barba negra', 'Super lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (15, 'Barba branca', 'Lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (16, 'puddim', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (17, 'Gaimon', 'Lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (18, 'Katakuri', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (19, 'Garp', 'Lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (20, 'Koby', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (21, 'Helmeppo', 'Super lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (22, 'Belmere', 'Super lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (23, 'Jaguar D.Saul', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (24, 'Ace', 'Lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (25, 'Sabo', 'Super lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (26, 'Akainu', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (27, 'Hack', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (28, 'Koala', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (29, 'Imu-sama', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (30, 'Alvida', 'raro');
+
+insert into fig(id_fig, titulo, raridade)
+values (31, 'Luffy Afro', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (32, 'Buggy', 'Lendario');
+
+insert into fig(id_fig, titulo, raridade)
+values (33, 'Boa Hancock', 'comum');
+
+insert into fig(id_fig, titulo, raridade)
+values (34, 'Aokiji', 'comum');
+
